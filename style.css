@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footer-second {
+    width: 100%;
+    padding: 10px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+/*hover effect on social media icons*/
+.socialicons a:hover {
+    background-color: #1d1c1c;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+body {
+    background-color: rgb(98, 78, 216);
+    color: rgb(254, 253, 255);
+    font-family: 'Roboto+Condense', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(45, 43, 155);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: rgb(65, 65, 97)
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(16, 8, 48);
+    height: 1.5px;
+    margin: 50px 80px;
+}
+
+.left {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+
+
+}
+
+.firstsection>div {
+    width: 30%;
+
+
+}
+
+.leftsection {
+
+    font-size: 1.5rem;
+    /*margin: 30px 0;*/
+
+}
+
+.leftsection .buttons {
+    padding: 40px 0;
+}
+
+.leftsection .btn {
+    /* margin: 12px 0;*/
+    padding: 10px;
+    background-color: rgb(47, 41, 102);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 30px 0;
+}
+
+.text-blue {
+    color: rgb(13, 2, 26);
+}
+
+.text-gray {
+    color: rgb(15, 11, 11);
+}
+
+#element {
+    color: rgb(24, 24, 49);
+}
+
+footer {
+    background-color: rgb(128, 132, 190);
+    /* height: 233px;*/
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 250px;
+
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(8, 7, 8);
+    padding: 20px;
+    background-color: rgb(99, 99, 172);
+}
+
+.footer-first {
+    padding: 50px 70px 50px 0;
+    font-size: 20px;
+    color: rgb(56, 18, 92);
+
+
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.secondsection h1 {
+    font-size: 1.5rem;
+}
+
+.secondsection .box {
+    background-color: aliceblue;
+    width: 77vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -23px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 100px;
+    color: rgb(10, 0, 0);
+    width: 200px;
+    font-size: 13px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 110px;
+    color: rgb(245, 235, 235);
+    width: 200px;
+    font-size: 12px;
+    list-style: none;
+
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+
+.thirdsection h1 {
+    font-size: 1.5rem;
+}
+
+.thirdsection .box {
+    background-color: aliceblue;
+    width: 77vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.thirdsection .vertical {
+    height: 95px;
+    width: 2px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.contact {
+    color: rgb(245, 245, 245);
+    height: 10vh;
+    width: 100vw;
+    margin: 10px;
+    padding: 10px 10px 10px 90px;
+    font-size: 1rem;
+}
+
+.purple {
+    color: black;
+    padding: 10px 10px 10px 150px;
+    margin: 40px 0;
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.5rem;
+}
+
+.contact-ref {
+    color: rgb(165, 230, 230);
+    padding: 0 10px 10px 140px;
+    font-size: 1rem;
+}
+
+.contact-for {
+    color: rgb(245, 245, 245);
+    padding: 0 10px 10px 150px;
+    font-size: 1rem;
+}
+
+.help {
+    color: rgb(245, 245, 245);
+    padding: 20px 10px 10px 90px;
+    font-size: 1rem;
+}
+
+.about-me {
+    color: black;
+    padding: 10px 10px 10px 150px;
+    margin: 40px 0;
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.3rem;
+}
+
+.intro {
+    color: rgb(245, 245, 245);
+    padding: 20px 10px 10px 90px;
+    font-size: 1rem;
+}
+
+.info {
+    color: rgb(245, 245, 245);
+    padding: 0 10px 10px 90px;
+    font-size: 1rem;
+}
